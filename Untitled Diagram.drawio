@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-22T14:16:39.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="EUSGSXyZOzzl3VkN5dDZ" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-22T14:58:46.783Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Aqi2W0r8JxZgBUa0gZuR" version="24.6.2" type="github">
   <diagram name="Page-1" id="F5OvUAoexx7IJQAfefh1">
-    <mxGraphModel dx="1257" dy="805" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1706" dy="1093" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
         <mxCell id="MRcRqxWJcjgXiceT0Lk_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" edge="1" parent="1" source="MRcRqxWJcjgXiceT0Lk_-33" target="MRcRqxWJcjgXiceT0Lk_-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MRcRqxWJcjgXiceT0Lk_-33" value="Closes Match&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Query&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-33" value="Closes Match&lt;div&gt;+&lt;/div&gt;&lt;div&gt;Query&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;&lt;i&gt;Format prompt&lt;/i&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="685" y="827.5" width="120" height="135" as="geometry" />
         </mxCell>
         <mxCell id="MRcRqxWJcjgXiceT0Lk_-34" value="Prompt" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" vertex="1" parent="1">
@@ -103,8 +103,26 @@
         <mxCell id="MRcRqxWJcjgXiceT0Lk_-36" value="LLM Model" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="885" y="865" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;curved=1;" edge="1" parent="1" source="MRcRqxWJcjgXiceT0Lk_-37" target="MRcRqxWJcjgXiceT0Lk_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-45" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;curved=1;" edge="1" parent="1" source="MRcRqxWJcjgXiceT0Lk_-37" target="MRcRqxWJcjgXiceT0Lk_-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MRcRqxWJcjgXiceT0Lk_-37" value="Result" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1060" y="875" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-41" value="Natural language Response" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="958.9968421052633" y="1013.0005263157896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;" edge="1" parent="1" source="MRcRqxWJcjgXiceT0Lk_-42" target="MRcRqxWJcjgXiceT0Lk_-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-42" value="Formatted Information" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1130.9968421052633" y="1013.0005263157896" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MRcRqxWJcjgXiceT0Lk_-43" value="GEO JSON" style="whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1130.9968421052633" y="1132.0005263157896" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
